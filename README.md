@@ -31,7 +31,19 @@ This is a simple reference project demonstrating a clean and modular structure u
    git clone https://github.com/lucianolemgruber/CleanArchitecture.git
    ```
 
-2. Navigate to the main project folder and run:
+2. Make sure to update the connection string in `appsettings.json`:
+
+   ```json
+   "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=CleanArchitecture;Trusted_Connection=True;TrustServerCertificate=True;"
+   ```
+
+3. Apply Entity Framework Core migrations (if needed):
+
+   ```bash
+   dotnet ef database update --project Clean.Api
+   ```
+
+4. Navigate to the main project folder and run:
 
    ```bash
    dotnet restore
@@ -82,7 +94,19 @@ Este é um projeto de referência simples que demonstra uma estrutura limpa e mo
    git clone https://github.com/lucianolemgruber/CleanArchitecture.git
    ```
 
-2. Navegue até a pasta principal e execute:
+2. Altere a connection string no `appsettings.json` para corresponder ao seu ambiente:
+
+   ```json
+   "DefaultConnection": "Server=SEU_SERVIDOR;Database=CleanArchitecture;Trusted_Connection=True;TrustServerCertificate=True;"
+   ```
+
+3. Execute as migrações do Entity Framework Core (se necessário):
+
+   ```bash
+   dotnet ef database update --project Clean.Api
+   ```
+
+4. Navegue até a pasta principal e execute:
 
    ```bash
    dotnet restore
