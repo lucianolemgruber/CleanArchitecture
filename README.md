@@ -1,3 +1,5 @@
+## 🌐 English Version
+
 ### 📦 CleanArchitecture
 
 [![.NET](https://img.shields.io/badge/.NET-8-blue)](https://dotnet.microsoft.com/)
@@ -45,6 +47,9 @@ This is a simple reference project demonstrating a clean and modular structure u
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+---
+
+## 🌎 Versão em Português
 
 ### 📦 CleanArchitecture
 
