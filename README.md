@@ -44,3 +44,51 @@ This is a simple reference project demonstrating a clean and modular structure u
 ### 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+### 📦 CleanArchitecture
+
+[![.NET](https://img.shields.io/badge/.NET-8-blue)](https://dotnet.microsoft.com/)
+[![Architecture](https://img.shields.io/badge/Padr%C3%A3o-Arquitetura%20Limpa-brightgreen)]()
+[![MediatR](https://img.shields.io/badge/MediatR-CQRS-yellow)]()
+[![License](https://img.shields.io/github/license/lucianolemgruber/CleanArchitecture)](LICENSE)
+
+Este é um projeto de referência simples que demonstra uma estrutura limpa e modular usando **Arquitetura Limpa**, **CQRS**, **MediatR** e **FluentValidation** com .NET 8.
+
+> ⚠️ Não sou professor nem criador de conteúdo — este repositório é apenas uma **base pessoal** que pode ser usada como ponto de partida ou inspiração para seus próprios projetos.
+
+---
+
+### 🧰 Tecnologias Utilizadas
+
+* ✅ Princípios da Arquitetura Limpa
+* ✅ Padrão CQRS (Command Query Responsibility Segregation)
+* ✅ MediatR para comunicação desacoplada
+* ✅ FluentValidation para validação de entradas
+* ✅ .NET 8
+
+---
+
+### 🚀 Como Executar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/lucianolemgruber/CleanArchitecture.git
+   ```
+
+2. Navegue até a pasta principal e execute:
+
+   ```bash
+   dotnet restore
+   dotnet build
+   dotnet run --project Clean.Api
+   ```
+
+(Substitua `Clean.Api` se o nome do seu projeto principal for diferente.)
+
+---
+
+### 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
