@@ -5,7 +5,7 @@
 [![.NET](https://img.shields.io/badge/.NET-8-blue)](https://dotnet.microsoft.com/)
 [![Architecture](https://img.shields.io/badge/Pattern-Clean%20Architecture-brightgreen)]()
 [![MediatR](https://img.shields.io/badge/MediatR-CQRS-yellow)]()
-[![License](https://img.shields.io/github/license/lucianolemgruber/CleanArchitecture)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This is a simple reference project demonstrating a clean and modular structure using **Clean Architecture**, **CQRS**, **MediatR**, and **FluentValidation** with .NET 8.
 
@@ -68,7 +68,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [![.NET](https://img.shields.io/badge/.NET-8-blue)](https://dotnet.microsoft.com/)
 [![Architecture](https://img.shields.io/badge/Padr%C3%A3o-Arquitetura%20Limpa-brightgreen)]()
 [![MediatR](https://img.shields.io/badge/MediatR-CQRS-yellow)]()
-[![License](https://img.shields.io/github/license/lucianolemgruber/CleanArchitecture)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Este é um projeto de referência simples que demonstra uma estrutura limpa e modular usando **Arquitetura Limpa**, **CQRS**, **MediatR** e **FluentValidation** com .NET 8.
 
